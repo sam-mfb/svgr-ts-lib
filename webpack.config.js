@@ -25,10 +25,10 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: "align-icons.js",
+    filename: "my-icons.js",
     path: path.resolve(__dirname, "dist"),
     library: {
-      name: "align-icons",
+      name: "my-icons",
       type: "umd",
     },
   },
