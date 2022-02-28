@@ -1,0 +1,23 @@
+.icon {
+  display: block;
+  height: 22px;
+  width: 22px;
+  path {
+    fill: black;
+  }
+}
+
+.icon.small {
+  height: 16px;
+  width: 16px;
+}
+
+.icon.very-small {
+  height: 12px;
+  width: 12px;
+}
+
+.icon.large {
+  height: 28px;
+  width: 28px;
+}
