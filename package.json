@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build-tsc": "rimraf ./lib && tsc",
-    "build-webpack": "rimraf ./dist && webpack"
+    "build": "rimraf ./lib && webpack"
   },
   "devDependencies": {
     "@types/node": "^14.17.6",

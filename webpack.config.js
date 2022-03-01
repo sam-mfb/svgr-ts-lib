@@ -25,8 +25,8 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: "my-icons.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    path: path.resolve(__dirname, "lib"),
     library: {
       name: "my-icons",
       type: "umd",
